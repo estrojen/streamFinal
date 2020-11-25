@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
 DEBUG = True
-SECRET_KEY = '?\xbf,\xb4\x8d\xa3"<\x0c\xb0@\x0f5\xac,w\xee\x8d$0\x13\x8b83'
+SECRET_KEY = 'kuOsv}27NvhqF8Q`p3-@>:CWw#rHW&>6N-=f<KVkU;vsIM9U8EnAM+Q`|lU/eK|'

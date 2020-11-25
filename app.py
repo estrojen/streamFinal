@@ -20,8 +20,8 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 app.config["SECRET_KEY"]="SECRET KEY"
 
-github_blueprint = make_github_blueprint(client_id='177beaa9b25e9c87ee76',
-                                         client_secret='428d7ed3451f8ba1ba5c289921996bbcef550964')
+github_blueprint = make_github_blueprint(client_id='46816d052b5d42065a60',
+                                         client_secret='0ccf0c95e33ec5d1cfb67c60b4bb63eac2d3b89a')
 
 app.register_blueprint(github_blueprint, url_prefix='/github_login')
 
